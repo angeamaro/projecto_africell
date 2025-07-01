@@ -10,6 +10,7 @@ import Error from '../views/Error.vue'
 import NotFound from '../views/NotFound.vue' // Página 404
 
 const routes = [
+  
   { path: '/', component: Home },
   { path: '/upload-bi', component: UploadBI },
   { path: '/confirm-data', component: ConfirmData },
