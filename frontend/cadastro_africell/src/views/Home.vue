@@ -14,15 +14,6 @@
               </router-link>
             </div>
           </div>
-
-          <div class="flex items-center">
-            <button
-              @click="irParaUploadBI"
-              class="hidden md:block bg-gradient-to-r from-orange-500 to-purple-700 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-300"
-            >
-              Cadastrar-se
-            </button>
-          </div>
         </div>
 
         <!-- Mobile Menu -->

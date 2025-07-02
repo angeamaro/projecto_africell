@@ -1,0 +1,10 @@
+fastapi==0.111.0 # Ou a versão mais recente que preferir
+uvicorn==0.30.1  # Servidor ASGI para rodar o FastAPI
+sqlalchemy==2.0.30 # Ou a versão mais recente que preferir
+python-dotenv==1.0.0 # Para carregar variáveis do .env
+deepface==0.0.128 # Ou a versão que estiver a usar
+opencv-python==4.9.0.80 # Para operações de imagem (cv2)
+pytesseract==0.3.10 # Para reconhecimento óptico de caracteres
+numpy==1.26.4 # Usado para manipulação de arrays (embeddings, imagens)
+mysql-connector-python==8.4.0 # Conector para MySQL com SQLAlchemy
+# twilio==8.10.0 # Descomente e adicione se for integrar com o serviço de SMS Twilio
