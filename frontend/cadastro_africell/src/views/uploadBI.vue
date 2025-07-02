@@ -15,7 +15,7 @@
             </div>
           </div>
           <div class="flex items-center">
-            <span class="text-purple-700 font-medium">Passo 1 de 5</span>
+            <span class="text-purple-700 font-medium">Passo 1 de 4</span>
           </div>
         </div>
       </div>

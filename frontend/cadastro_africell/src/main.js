@@ -7,13 +7,13 @@ import { createPinia } from 'pinia'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faUserSecret, faShieldAlt, faIdCard, faSms, faLock, faFaceSmile, faTimes, faBalanceScale } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faShieldAlt, faIdCard, faSms, faLock, faFaceSmile, faTimes, faBalanceScale,faEnvelope,faArrowLeft,faCheck,faExclamationTriangle } from '@fortawesome/free-solid-svg-icons'
 
 // Se quiser marcas (ex: faGithub), importe também:
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 // Adiciona os ícones à biblioteca
-library.add(faUserSecret, faShieldAlt, faIdCard, faSms, faLock, faFaceSmile, faTimes, faGithub, faBalanceScale)
+library.add(faUserSecret, faShieldAlt, faIdCard, faSms, faLock, faFaceSmile, faTimes, faGithub, faBalanceScale,faEnvelope, faArrowLeft,faCheck,faExclamationTriangle)
 
 import App from './App.vue'
 import router from './router'
